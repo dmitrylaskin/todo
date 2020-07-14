@@ -1,0 +1,18 @@
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-bottom: .5rem;
+}
+.listItem input {
+    margin-right: .5rem;
+}
+.done {
+    text-decoration: line-through;
+}
+.rm {
+    background-color: lightcoral;
+}
